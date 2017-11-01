@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvw"
+        android:text="Registration Form"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Middle Name"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt3"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Submit"
+        android:id="@+id/btn">
+    </Button>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Detail"
+        android:id="@+id/btn3">
+    </Button>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Delete All"
+        android:id="@+id/btn1">
+    </Button>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Update"
+        android:id="@+id/btn2">
+    </Button>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvw2"
+        />
+
+
+</LinearLayout>
